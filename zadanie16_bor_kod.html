@@ -1,0 +1,54 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_borys()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+    <form>
+    <textarea name="borys" cols="80" rows="20" readonly>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Zadanie16-Borys</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    color: navy;
+                    text-align: center;
+                }
+            </style>
+        </head>
+        <body>
+            <script language="JavaScript">
+                var D1_bor = prompt("Podaj pierwszą liczbę A=", "");
+                var D2_bor = prompt("Podaj drugą liczbę B=", "");
+        
+                var a = parseFloat(D1_bor);
+                var b = parseFloat(D2_bor);
+        
+                var c = a * a * a;
+                var d = 3 * a * a * b;
+                var e = 3 * a * b * b;
+                var f = b * b * b;
+                var o = c + d + e + f;
+                document.write('Wczytane liczby: A=' + a + ', B=' + b + '');
+                document.write('(' + a + ' + ' + b + ')³ = ' 
+                    + a + '³ + 3*((' + a + ')²)*(' + b + ') + 3*(' + a + ')*((' + b + ')²) + ' + b + '³ = '
+                    + c + ' + ' + d + ' + ' + e + ' + ' + f + ' = ' + o + '');
+            </script>
+        </body>
+        </html>
+        
+    </textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_borys()"/>
+    <script type="text/javascript">
+    </script>
+    </body>
+    </html>

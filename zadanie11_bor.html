@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Zadanie 11 Borys</title>
+</head>
+
+<body>
+    <div id="result" style="color:rgb(0, 255, 85);font-size:56px;">
+        <script language="JavaScript">
+            var D1_bor = prompt("Pierwsza data:", "");
+            var D2_bor = prompt("Druga data:", "");
+
+            var D1 = parseFloat(D1_bor);
+            var D2 = parseFloat(D2_bor);
+
+            var sekundy = (D1 - D2) * 24 * 60 * 60;
+            document.getElementById("result").innerHTML = "Ilość sekund: " + sekundy + " sekund";
+
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>zadanie4 Borys</title>
+    <script>
+    function okno_zamknij() {
+        window.close()
+    }
+    </script>
+    <style>
+        p{
+            font-size: 22px;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <b>1) Kiedy powstał JavaScript (podaj datę).</b>
+    <p>JavaScript został opracowany w 1995 roku.</p>
+    
+    <b>2) Dlaczego jest to język skryptowy?</b>
+    <p>JavaScript to język skryptowy, ponieważ przeglądarka może interpretować go bezpośrednio, bez konieczności wcześniejszej kompilacji.</p>
+    
+    <b>3) Gdzie jest wykonywany JavaScript – po stronie klienta czy serwera?</b>
+    <p>JavaScript działa głównie po stronie klienta, czyli w przeglądarce, ale dzięki Node.js może być także uruchamiany na serwerze.</p>
+    
+    <b>4) Dlaczego JavaScript jest bezpiecznym narzędziem?</b>
+    <p>JavaScript jest uważany za bezpieczny, ponieważ ma ograniczone uprawnienia dostępu do zasobów komputera, na którym działa.</p>
+    
+    <b>5) Czy JavaScript jest językiem obiektowym? Jeśli tak, to dlaczego?</b>
+    <p>Tak, JavaScript jest językiem obiektowym, ponieważ umożliwia tworzenie obiektów i operowanie na nich, a także posługuje się metodami i zdarzeniami, co pozwala na pracę z modelem DOM.</p>
+    
+    <b>6) Jakie są zalety JavaScriptu?</b><br>
+    Zaleta 1: Jest prosty do nauki i szybki do przyswojenia.<br>
+    Zaleta 2: Jest bardzo popularny – istnieje wiele przykładów i zasobów online.<br>
+    Zaleta 3: Redukuje obciążenie serwera, wykonując część operacji po stronie użytkownika.<br>
+    
+    <b>7) Co to jest framework?</b>
+    <p>Framework to zbiór narzędzi, który wspomaga proces tworzenia aplikacji, dostarczając struktury kodu oraz zestawu gotowych funkcji i bibliotek.</p>
+    
+    <b>8) Czy można używać frameworków do aplikacji mobilnych?</b>
+    <p>Frameworki takie jak React Native umożliwiają tworzenie aplikacji mobilnych, które działają na różnych platformach.</p>
+    
+    <b>9) Czym są aplikacje responsywne?</b>
+    <p>Aplikacje responsywne automatycznie dostosowują się do wielkości ekranu, co zapewnia poprawne wyświetlanie i działanie na różnych urządzeniach. JavaScript może pomagać w dynamicznym dopasowywaniu treści do ekranu.</p>
+    
+    <b>10) Wyjaśnienie kodu: <code>&lt;input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&gt;</code></b>
+    <p>Ten kod tworzy przycisk, który po kliknięciu uruchamia funkcję WinOpen, otwierając nową stronę w nowym oknie przeglądarki.</p>
+    
+    <b>11) Wyjaśnienie kodu: <code>&lt;window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");&gt;</code></b>
+    <p>Ten kod otwiera nowe okno o nazwie "okienko" z plikiem "obraz.html". Ustawienia określają między innymi wyłączenie paska narzędzi, katalogów i menu oraz wymiary i pozycję okna na ekranie.</p>
+    
+    <b>12) Co robi instrukcja window.close()?</b>
+    <p>Instrukcja window.close() zamyka obecnie otwarte okno przeglądarki.</p>    
+    <input type="button" value="zamknij okno" onclick="okno_zamknij()" />
+</body>
+</html>
